@@ -168,3 +168,34 @@ h1{
     background-color: black;
     color: whitesmoke;
 }
+.skills{
+    letter-spacing: 5px;
+    padding: 1%;
+    background-color: rgb(231, 228, 228);
+}
+.skills .white{
+    width:100%;
+    background-color: white;
+    margin:0.5%;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+    color: black;
+    border: black solid 1px;
+    border-radius: 2px;
+}
+.skills .white .black{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border-radius: 2px;
+    margin:0;
+
+}
+.skills h2{
+    margin-bottom:1px;
+}
+.skills h1{
+    text-align: center;
+}
