@@ -4,7 +4,6 @@ body{
 header{
     background-color: black;
     color: white;
-    height: 50px;
     display:flex;
     font-size: 20px;
     font-weight: 200;
@@ -27,9 +26,22 @@ header button{
     padding: 10px 40px;
     border-radius:50px ;
 }
+h1{
+    margin: 0%;
+}
 #about{
-    background-color: gray;
+    margin: 0%;
+    background-color: rgb(189, 189, 189);
     color: black;
     display:block;
-    
+    font-size: 20px;
+    padding: 10px;
 }
+#about h1{
+    color: black;
+}
+#about button{
+    color: white;
+    background-color:black;
+}
+
