@@ -11,6 +11,8 @@ header{
     padding: 10px;
     align-items: center;
     justify-content: space-around;
+    position: sticky;
+    top:0;
 }
 button,a{
     padding: 10px;
@@ -24,4 +26,10 @@ header button{
     color: white;
     padding: 10px 40px;
     border-radius:50px ;
+}
+#about{
+    background-color: gray;
+    color: black;
+    display:block;
+    
 }
