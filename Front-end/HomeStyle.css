@@ -59,8 +59,10 @@ h1{
     margin: 7px;
 }
 .contact input{
-    width: 20%;
-    margin: 7px;
+    width: 25%;
+    margin: 1%;
+    padding: 0.7%;
+    border-radius: 4px;
 }
 .team{
     background-color: #333;
@@ -96,4 +98,28 @@ h1{
     padding: 20%;
     background-color: black;
     color: whitesmoke;
+}
+.newsletter{
+    background-color: rgb(233, 231, 231);
+    color: rgb(32, 30, 30);
+    text-align: center;
+    padding: 5%;
+}
+.newsletter input{
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+}
+.newsletter button{
+    background-color: black;
+    color: cornsilk;
+    padding: 1.5%;
+    border-radius: 5px ;
+    margin:1.5%;
+    font-size: 16px;
+}
+.newsletter button:hover{
+    background-color: brown;
+    box-shadow: rgb(116, 69, 69) 5px 5px 1px 1px ;
+    transform: translate(-4px, -4px);
 }
