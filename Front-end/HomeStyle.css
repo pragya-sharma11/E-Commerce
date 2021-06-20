@@ -4,7 +4,10 @@ body{
 header{
     background-color: black;
     color: white;
+    height: 50px;
     display:flex;
+    font-size: 20px;
+    font-weight: 200;
     padding: 10px;
     align-items: center;
     justify-content: space-around;
@@ -14,10 +17,15 @@ button,a{
     border: 0;
     text-decoration: none;
     outline: 0;
+    color: white;
 }
 header button{
     background-color: cadetblue;
     color: white;
     padding: 10px 40px;
     border-radius:50px ;
+}
+#head1{
+    font-size: 60px;
+    font-weight: 500;
 }
