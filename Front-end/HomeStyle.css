@@ -45,10 +45,10 @@ h1{
     background-color:black;
 }
 .contact{
-    background-color: rgb(43, 43, 43);
+    background-color:black;
     color: ivory;
-    padding: 5%;
-    display: flex;
+    padding: 3%;
+    text-align: center;
     justify-content: space-around;
     font-size: 20px;
 }
@@ -56,9 +56,44 @@ h1{
     background-color: cadetblue;
     color: whitesmoke;
     border-radius: 5px;
-    margin: 10px;
+    margin: 7px;
 }
 .contact input{
-    width: 190px;
-    margin: 10px;
+    width: 20%;
+    margin: 7px;
+}
+.team{
+    background-color: #333;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.team .flex{
+    display: flex;
+    justify-content: space-around;
+}
+.team .flex .item{
+    width: 22%;
+    margin: 2%;
+    padding: 2%;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+.team .flex .item button{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+.team .flex .item button:hover{
+    background-color: crimson;
+    transform: translate(-4px,-4px);
+    animation-duration: 0.1s;
+    box-shadow: rgb(201, 69, 95) 4px 4px 1px 1px;
+}
+.team .flex .item .image{
+    padding: 20%;
+    background-color: black;
+    color: whitesmoke;
 }
