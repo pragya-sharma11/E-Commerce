@@ -199,3 +199,37 @@ h1{
 .skills h1{
     text-align: center;
 }
+.services{
+    background-color: gray;
+    text-align: center;
+    padding: 2%;
+}
+.services h1{
+    margin-bottom: 2%;
+}
+.services .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services .flex .item{
+    margin: 2%;
+    padding: 1%;
+    width:21%
+} 
+.services .flex .item i{
+    background-color: gray;
+    text-align: center;
+    font-size: 60px;
+}
+.services .flex .item button{
+    background-color: black;
+    font-size: 20px;
+    color:white;
+    border-radius: 15px;
+}
+.services .flex .item button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgb(46, 45, 45) 3px 3px 3px 3px ;
+}
