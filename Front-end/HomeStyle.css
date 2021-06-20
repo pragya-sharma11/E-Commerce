@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+}
+header{
+    background-color: black;
+    color: white;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+button,a{
+    padding: 10px;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+}
+header button{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 40px;
+    border-radius:50px ;
+}
