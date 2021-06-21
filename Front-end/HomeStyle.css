@@ -143,6 +143,7 @@ h1{
     background-color: rgb(26, 24, 24);
     color: rgb(212, 209, 209);
     text-align: center;
+    padding: 1%;
 }
 .prices .flex{
     display: flex;
@@ -265,6 +266,10 @@ h1{
 .footer .flex .item .line{
     margin: 5px;
     color: white;
+    display: flex;
+}
+.footer .flex .item .line i{
+    margin-right: 1%;
 }
 .footer .flex .item .line div.r{
     margin-left: 1%;
