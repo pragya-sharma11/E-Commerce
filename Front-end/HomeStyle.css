@@ -73,9 +73,11 @@ h1{
 }
 .contact input{
     width: 25%;
-    margin: 1%;
-    padding: 0.7%;
+    height: 15% !important;
+    margin: 2px 2px 4px 2px !important;
+    padding:0;
     border-radius: 4px;
+    font-size: 20px;
 }
 .team{
     background-color: #333;
@@ -264,12 +266,16 @@ h1{
     margin: 5px;
     color: white;
 }
-.footer .flex .item .line .r{
+.footer .flex .item .line div.r{
     margin-left: 1%;
+
 }
-.footer .flex .item input{
+.footer .flex .item input.line{
     width:90%;
-    height: 40%;
+    height: 25%;
+    font-size: 20px;
+    color:black;
+    padding: 0%;
 }
 .footer .flex .item button{
     background-color: cadetblue;
@@ -282,4 +288,40 @@ h1{
     box-shadow: rgb(165, 64, 84);
     border-radius: 3px;
     transform: translate(-4px, -4px);
+}
+@media(max-width:900px){
+    header{
+        flex-flow: column;
+    }
+    header div{
+        padding: 20px;
+    }
+    .contact input{
+        width:  100%;
+        margin-bottom:100px ;
+    }
+    .team .flex{
+        flex-flow: column;
+    }
+    .team .flex .item{
+        width: auto;
+    }
+    .prices .flex{
+        flex-flow: column;
+    }
+    .prices .flex .item{
+        width: auto;
+    }
+    .services .flex{
+        flex-flow: column;
+    }
+    .services .flex .item{
+        width:  auto;
+    }
+    .footer .flex{
+        flex-flow:  column;
+    }
+    .footer .flex .item{
+        width: auto;
+    }
 }
